@@ -11,6 +11,10 @@ import { getDashboardContext, THEME_COOKIE, type DashboardTheme } from "@/lib/da
 
 export const metadata: Metadata = { title: "Dashboard", robots: { index: false } };
 
+// Every dashboard page is per user (session cookie). Without this, the locale layout's on-demand
+// static rendering would try to cache these pages and fail when they read cookies.
+export const dynamic = "force-dynamic";
+
 export default async function DashboardLayout({ children, params }: LayoutProps<"/[locale]/dashboard">) {
   const { locale } = await params;
   setRequestLocale(locale);

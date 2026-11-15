@@ -7,15 +7,15 @@ import { ArrowLeft, ArrowRight } from "@phosphor-icons/react/dist/ssr";
 import { Link } from "@/i18n/navigation";
 import { buttonVariants } from "@/components/ui/button";
 import { Reveal } from "@/components/motion/reveal";
-import { getPostBySlug, getPublishedPosts } from "@/lib/data";
+import { getPostBySlug } from "@/lib/data";
 import { t9n } from "@/lib/utils";
 import { readingMinutes } from "../reading";
 
 export const revalidate = 600;
 
-export async function generateStaticParams() {
-  const posts = await getPublishedPosts();
-  return posts.map((p) => ({ slug: p.slug }));
+// Rendered on first visit and cached; see the locale layout for why nothing is built ahead.
+export function generateStaticParams() {
+  return [];
 }
 
 export async function generateMetadata({ params }: PageProps<"/[locale]/blog/[slug]">): Promise<Metadata> {

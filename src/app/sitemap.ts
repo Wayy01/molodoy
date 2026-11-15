@@ -4,7 +4,8 @@ import { getBarbers, getPublishedPosts } from "@/lib/data";
 const BASE = process.env.SITE_URL ?? "https://molodoybarbershop.md";
 const STATIC = ["", "/book", "/team", "/prices", "/work", "/locations", "/blog"];
 
-export const revalidate = 3600;
+// Built per request: a revalidated sitemap would be prerendered during `next build`, which has no database.
+export const dynamic = "force-dynamic";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const [barbers, posts] = await Promise.all([getBarbers(), getPublishedPosts()]);

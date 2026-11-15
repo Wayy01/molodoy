@@ -14,8 +14,10 @@ const unbounded = Unbounded({
   display: "swap",
 });
 
+// Nothing is prerendered at build time, so `next build` needs no database (Docker builds run without
+// runtime secrets). Each page renders on its first visit, then is cached and revalidated as usual (ISR).
 export function generateStaticParams() {
-  return routing.locales.map((locale) => ({ locale }));
+  return [];
 }
 
 export async function generateMetadata({ params }: LayoutProps<"/[locale]">): Promise<Metadata> {

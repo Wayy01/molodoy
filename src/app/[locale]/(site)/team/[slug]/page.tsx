@@ -8,15 +8,15 @@ import { buttonVariants } from "@/components/ui/button";
 import { LevelBadge } from "@/components/ui/badge";
 import { Reveal } from "@/components/motion/reveal";
 import { ClipReveal } from "@/components/motion/clip-reveal";
-import { getBarberBySlug, getBarbers, getMedia, getServices } from "@/lib/data";
+import { getBarberBySlug, getMedia, getServices } from "@/lib/data";
 import { formatMDL, priceFor, t9n } from "@/lib/utils";
 import { NextSlots } from "./next-slots";
 
 export const revalidate = 600;
 
-export async function generateStaticParams() {
-  const barbers = await getBarbers();
-  return barbers.map((b) => ({ slug: b.slug }));
+// Rendered on first visit and cached; see the locale layout for why nothing is built ahead.
+export function generateStaticParams() {
+  return [];
 }
 
 export async function generateMetadata({ params }: PageProps<"/[locale]/team/[slug]">): Promise<Metadata> {
