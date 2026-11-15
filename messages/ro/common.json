@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "title": "Molodoy Barbershop | Tunsori bărbătești în Chișinău",
+    "description": "Barbershop cu patru filiale în Chișinău: Centru, Botanica, Râșcani și Buiucani. Alege barberul și ora online."
+  },
+  "nav": {
+    "services": "Prețuri",
+    "team": "Echipa",
+    "work": "Lucrări",
+    "locations": "Filiale",
+    "blog": "Blog",
+    "book": "Programează-te",
+    "menu": "Meniu",
+    "close": "Închide",
+    "home": "Acasă",
+    "login": "Intrare staff"
+  },
+  "levels": {
+    "barber": "Barber",
+    "pro": "Pro",
+    "top": "Top",
+    "barberHint": "Cel mai bun preț",
+    "proHint": "Experiență solidă",
+    "topHint": "Cei mai căutați barberi"
+  },
+  "categories": {
+    "hair": "Păr",
+    "beard": "Barbă",
+    "combo": "Complex",
+    "extra": "Extra"
+  },
+  "status": {
+    "booked": "Programat",
+    "completed": "Finalizat",
+    "no_show": "Neprezentat",
+    "cancelled": "Anulat"
+  },
+  "source": {
+    "online": "Online",
+    "phone": "Telefon",
+    "walk_in": "Fără programare"
+  },
+  "weekdays": {
+    "short": ["Du", "Lu", "Ma", "Mi", "Jo", "Vi", "Sâ"],
+    "long": ["Duminică", "Luni", "Marți", "Miercuri", "Joi", "Vineri", "Sâmbătă"]
+  },
+  "time": {
+    "today": "Azi",
+    "tomorrow": "Mâine",
+    "min": "{count} min",
+    "hours": "{open}-{close}",
+    "daily": "Zilnic {hours}"
+  },
+  "price": {
+    "from": "de la {price}",
+    "notOffered": "Nu e disponibil"
+  },
+  "footer": {
+    "tagline": "Tunsori și barbă în patru cartiere din Chișinău.",
+    "contact": "Contact",
+    "follow": "Urmărește-ne",
+    "hours": "Program",
+    "rights": "© {year} Molodoy Barbershop",
+    "language": "Limba"
+  },
+  "language": {
+    "ro": "Română",
+    "ru": "Русский"
+  },
+  "auth": {
+    "title": "Intrare staff",
+    "subtitle": "Panoul pentru proprietar, manageri și barberi.",
+    "email": "Email",
+    "password": "Parolă",
+    "submit": "Intră",
+    "invalid": "Email sau parolă greșită.",
+    "back": "Înapoi la site",
+    "logout": "Ieșire"
+  },
+  "errors": {
+    "generic": "Ceva n-a mers. Încearcă din nou.",
+    "notFoundTitle": "Pagina nu există",
+    "notFoundText": "Poate a fost mutată. Te ducem înapoi?",
+    "goHome": "Pe pagina principală"
+  }
+}

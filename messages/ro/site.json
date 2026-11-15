@@ -1,0 +1,114 @@
+{
+  "hero": {
+    "line1": "Arată tânăr.",
+    "line2": "Rămâi Molodoy.",
+    "sub": "21 de barberi în Centru, Botanica, Râșcani și Buiucani. Alegi barberul și ora online, fără apeluri.",
+    "ctaSecondary": "Vezi lucrările"
+  },
+  "locations": {
+    "title": "Patru filiale. Același standard.",
+    "openToday": "Azi {hours}",
+    "closedToday": "Azi închis",
+    "barbers": "{count, plural, one {# barber} few {# barberi} other {# de barberi}}",
+    "bookHere": "Programează-te aici",
+    "directions": "Cum ajungi",
+    "call": "Sună"
+  },
+  "team": {
+    "title": "Alege-ți barberul",
+    "sub": "Fiecare barber are un nivel: Barber, Pro sau Top. Nivelul stabilește prețul.",
+    "all": "Toți",
+    "seeAll": "Toată echipa",
+    "book": "Programează-te",
+    "noPhoto": "Fără poză"
+  },
+  "prices": {
+    "title": "Prețuri clare",
+    "sub": "Prețul depinde de nivelul barberului.",
+    "firstVisit": "Prima vizită: -{amount} MDL la tunsoare.",
+    "tier": "Nivel",
+    "service": "Serviciu",
+    "duration": "Durată",
+    "seeAll": "Lista completă",
+    "onlyTop": "doar Top"
+  },
+  "reels": {
+    "title": "Lucrări în mișcare",
+    "sub": "Clipuri scurte direct din scaun.",
+    "seeAll": "Toate video",
+    "play": "Redă video",
+    "close": "Închide",
+    "mute": "Fără sunet",
+    "unmute": "Cu sunet",
+    "openTikTok": "Deschide pe TikTok"
+  },
+  "gallery": {
+    "title": "Lucrări recente",
+    "seeAll": "Toată galeria"
+  },
+  "manifesto": "Fără grabă. Fără tunsori la întâmplare. Doar linii curate și timp pentru tine.",
+  "blog": {
+    "title": "Din blog",
+    "seeAll": "Toate articolele",
+    "readMore": "Citește",
+    "minRead": "{count} min de citit",
+    "back": "Înapoi la blog",
+    "ctaTitle": "Gata de o tunsoare nouă?",
+    "empty": "Încă nu sunt articole."
+  },
+  "cta": {
+    "offer": "-{amount} MDL la prima tunsoare",
+    "title": "Locul tău e liber.",
+    "sub": "Alege barberul, serviciul și ora. Confirmarea vine pe loc.",
+    "orCall": "Preferi telefonul?"
+  },
+  "teamPage": {
+    "title": "Echipa Molodoy",
+    "sub": "{count} barberi în patru filiale din Chișinău.",
+    "filter": "Filiala"
+  },
+  "barberPage": {
+    "bookWith": "Programează-te la {name}",
+    "worksAt": "Lucrează în filiala {location}",
+    "services": "Servicii și prețuri",
+    "work": "Lucrări",
+    "schedule": "Program",
+    "dayOff": "Liber",
+    "nextFree": "Următoarele locuri libere",
+    "noSlots": "Nu are locuri libere în zilele următoare.",
+    "loading": "Căutăm locuri libere",
+    "back": "Toată echipa",
+    "level": "Nivel {level}"
+  },
+  "locationsPage": {
+    "title": "Filiale",
+    "sub": "Patru adrese, același program: zilnic de la 10:00 la 20:00.",
+    "team": "Echipa filialei",
+    "phone": "Telefon",
+    "hours": "Program",
+    "address": "Adresă",
+    "openMaps": "Deschide în Google Maps"
+  },
+  "pricesPage": {
+    "title": "Prețuri",
+    "sub": "Toate prețurile sunt în MDL. Prețul depinde de nivelul barberului pe care îl alegi.",
+    "tiersTitle": "Ce înseamnă nivelurile",
+    "barberText": "Barberi tineri, atenți la detalii, la cel mai accesibil preț.",
+    "proText": "Barberi cu experiență solidă și mâna sigură pe orice tip de păr.",
+    "topText": "Cei mai căutați barberi din echipă. Se ocupă primii.",
+    "book": "Programează-te"
+  },
+  "workPage": {
+    "title": "Lucrări",
+    "sub": "Foto și video din cele patru filiale.",
+    "photos": "Foto",
+    "videos": "Video",
+    "by": "de {name}",
+    "empty": "Încă nu sunt lucrări aici."
+  },
+  "notFound": {
+    "title": "Aici nu se tunde nimeni",
+    "text": "Pagina nu există sau a fost mutată.",
+    "home": "Pe pagina principală"
+  }
+}

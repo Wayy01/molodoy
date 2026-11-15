@@ -1,0 +1,90 @@
+{
+  "meta": "Programare online",
+  "title": "Programare",
+  "steps": {
+    "location": "Filiala",
+    "barber": "Barber",
+    "service": "Serviciu",
+    "time": "Data și ora",
+    "details": "Datele tale"
+  },
+  "location": {
+    "title": "Unde vii?",
+    "barbers": "{count, plural, one {# barber} few {# barberi} other {# de barberi}}"
+  },
+  "barber": {
+    "title": "La cine te programezi?",
+    "nextFree": "Liber {when}",
+    "noFree": "Ocupat în următoarele zile",
+    "checking": "Verificăm",
+    "fromPrice": "de la {price}"
+  },
+  "service": {
+    "title": "Ce facem azi?",
+    "with": "Prețuri la {name}, nivel {level}"
+  },
+  "time": {
+    "title": "Când îți convine?",
+    "morning": "Dimineața",
+    "afternoon": "După-amiaza",
+    "evening": "Seara",
+    "dayOff": "{name} nu lucrează în această zi.",
+    "full": "Nicio oră liberă în această zi. Încearcă altă zi.",
+    "loading": "Căutăm ore libere",
+    "error": "Nu am putut încărca orele. Încearcă din nou.",
+    "retry": "Reîncearcă"
+  },
+  "details": {
+    "title": "Ultimul pas",
+    "name": "Nume",
+    "phone": "Telefon",
+    "phoneHint": "Te sunăm doar dacă se schimbă ceva la programare.",
+    "email": "Email (opțional)",
+    "note": "Comentariu pentru barber (opțional)",
+    "notePlaceholder": "Ex.: fade jos, las lungimea sus",
+    "firstVisit": "E prima ta vizită? Primești -{amount} MDL la tunsoare, aplicat automat.",
+    "consent": "Confirmând, accepți să te contactăm doar în legătură cu această programare.",
+    "submit": "Confirmă programarea",
+    "submitting": "Se confirmă"
+  },
+  "summary": {
+    "title": "Programarea ta",
+    "location": "Filiala",
+    "barber": "Barber",
+    "service": "Serviciu",
+    "when": "Când",
+    "total": "Total",
+    "duration": "{count} min"
+  },
+  "nav": {
+    "back": "Înapoi",
+    "next": "Continuă",
+    "change": "Schimbă"
+  },
+  "errors": {
+    "name": "Scrie-ți numele.",
+    "phone": "Număr de telefon invalid. Ex.: 069 123 456",
+    "email": "Email invalid.",
+    "slotTaken": "Cineva tocmai a luat ora asta. Alege alta, te rugăm.",
+    "generic": "Nu am putut salva programarea. Încearcă din nou sau sună-ne."
+  },
+  "done": {
+    "title": "Te așteptăm, {name}!",
+    "sub": "Programarea e confirmată. Păstrează codul, cu el poți anula.",
+    "code": "Cod programare",
+    "addToCalendar": "Adaugă în calendar",
+    "directions": "Cum ajungi",
+    "cancel": "Anulează programarea",
+    "cancelConfirm": "Sigur anulezi programarea?",
+    "cancelYes": "Da, anulează",
+    "keep": "Nu, o păstrez",
+    "cancelled": "Programarea a fost anulată.",
+    "cancelledSub": "Dacă te-ai răzgândit, fă o programare nouă.",
+    "tooLate": "Anularea online e posibilă cu cel puțin 2 ore înainte. Sună-ne la {phone}.",
+    "past": "Această programare a trecut.",
+    "bookAnother": "Programare nouă",
+    "discount": "Reducere prima vizită aplicată",
+    "home": "Pe pagina principală",
+    "cancelNote": "Ora ta va deveni liberă pentru alți clienți."
+  }
+}

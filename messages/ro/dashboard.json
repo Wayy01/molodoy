@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "overview": "Prezentare",
+    "calendar": "Calendar",
+    "appointments": "Programări",
+    "clients": "Clienți",
+    "team": "Echipa",
+    "services": "Servicii",
+    "locations": "Filiale",
+    "content": "Conținut",
+    "settings": "Setări",
+    "more": "Mai mult",
+    "viewSite": "Vezi site-ul"
+  },
+  "roles": {
+    "owner": "Proprietar",
+    "manager": "Manager",
+    "barber": "Barber"
+  },
+  "location": {
+    "all": "Toate filialele",
+    "label": "Filiala"
+  },
+  "theme": {
+    "label": "Temă",
+    "system": "Automat",
+    "light": "Luminoasă",
+    "dark": "Întunecată"
+  },
+  "common": {
+    "save": "Salvează",
+    "saved": "Salvat",
+    "cancel": "Anulează",
+    "delete": "Șterge",
+    "edit": "Editează",
+    "add": "Adaugă",
+    "create": "Creează",
+    "close": "Închide",
+    "search": "Caută",
+    "filter": "Filtrează",
+    "all": "Toate",
+    "loading": "Se încarcă",
+    "noResults": "Nimic găsit",
+    "confirmDelete": "Sigur vrei să ștergi?",
+    "error": "Ceva n-a mers. Încearcă din nou.",
+    "forbidden": "Nu ai acces la această acțiune.",
+    "previous": "Înapoi",
+    "next": "Înainte",
+    "page": "Pagina {page} din {total}",
+    "export": "Exportă CSV",
+    "romanian": "Română",
+    "russian": "Rusă",
+    "active": "Activ",
+    "inactive": "Inactiv",
+    "demoNotice": "Datele de vânzări sunt demonstrative până la lansare. Le poți șterge din Setări."
+  }
+}
